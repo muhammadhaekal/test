@@ -1,0 +1,41 @@
+.navbar {
+  background-color: #4267B2;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.brand-navbar {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.login-form {
+  display: flex;
+}
+
+.login-form > input {
+  margin: 10px;
+  border-radius: 5px;
+  height: 25px;
+}
+
+.my-auto {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.grid-container {
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  display: grid;
+  grid-template-columns: auto auto ;
+  grid-gap: 10px;
+}
